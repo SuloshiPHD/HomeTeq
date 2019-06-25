@@ -1,0 +1,54 @@
+create table product
+(
+ 
+prodId INT(4) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+
+ prodName  varchar(30) NOT NULL,
+
+ prodPicNameSmall varchar(100) NOT NULL,
+ 
+prodPicNameLarge  varchar(100) NOT NULL,
+ 
+prodDescripShort  varchar(1000) NULL,
+ 
+prodDescripLong  varchar(3000) NULL,
+ 
+prodPrice DECIMAL(6,2) NOT NULL,
+ 
+prodQuantity INT(4) NOT NULL
+
+
+
+)
+ENGINE = InnoDB;
+
+
+INSERT INTO Product (prodDescripLong,prodDescripShort,prodName,prodPicNameLarge,prodPicNameSmall,prodPrice,prodQuantity )
+VALUES ('John Lewis & Partners Eliza Leather Mini Barrel Shoulder Bag, Yellow','Yellow hand bag','Womens hand bag','handBag2.jpg','handBag.jpg',75,100);
+
+INSERT INTO Product (prodDescripLong,prodDescripShort,prodName,prodPicNameLarge,prodPicNameSmall,prodPrice,prodQuantity )
+VALUES ('Dior Hypnotic Poison Eau de Toilette Roller-Pearl, 20ml','Dior Hypnotic Poison Eau de Toilette Roller-Pearl ','Womens Fragrance','perfume2.jpg','perfume1.jpg',33,250);
+
+INSERT INTO Product (prodDescripLong,prodDescripShort,prodName,prodPicNameLarge,prodPicNameSmall
+,prodPrice,prodQuantity )
+VALUES('An elegant facet teardrop pendant, complete with enhanced edges',
+'Birthstone Pendant Necklace','Women Necklas with pendant','necklaus2.jpg','necklas.jpg',45,300);
+
+INSERT INTO Product (prodDescripLong,prodDescripShort,prodName,prodPicNameLarge,prodPicNameSmall,prodPrice,prodQuantity )
+VALUES('cute adjustable fabric bracelet from Merci Maman features','Women Bracelet',' Liberty Bracelet','bracelet2.jpg','bracelet.jpg',67,600);
+
+
+/////////////////////////
+INSERT INTO Product (prodDescripLong,prodDescripShort,prodName,prodPicNameLarge,prodPicNameSmall,prodPrice,prodQuantity )
+VALUES ('John Lewis & Partners Eliza Leather Mini Barrel Shoulder Bag, Yellow','Designed from soft grainy leather with a smooth leather strap, our Eliza mini shoulder bag is a versatile nod to catwalk trends.','Womens hand bag','handBag2.jpg','handBag.jpg',75,100);
+
+INSERT INTO Product (prodDescripLong,prodDescripShort,prodName,prodPicNameLarge,prodPicNameSmall,prodPrice,prodQuantity )
+VALUES ('Dior Hypnotic Poison Eau de Toilette Roller-Pearl, 20ml','The captivating signature of coffee and violet is reinterpreted to evoke a powdery red rose, as a symbol of love and seduction.','Womens Fragrance','perfume2.jpg','perfume1.jpg',33,250);
+
+INSERT INTO Product (prodDescripLong,prodDescripShort,prodName,prodPicNameLarge,prodPicNameSmall
+,prodPrice,prodQuantity )
+VALUES('An elegant facet teardrop pendant, complete with enhanced edges',
+'An elegant facet teardrop pendant, complete with enhanced edges hangs on a delicate sterling silver chain, accompanied by a smaller pendant with round-cut birthstone in the centre for a unique touch.','Women Necklas with pendant','necklaus2.jpg','necklas.jpg',45,300);
+
+INSERT INTO Product (prodDescripLong,prodDescripShort,prodName,prodPicNameLarge,prodPicNameSmall,prodPrice,prodQuantity )
+VALUES('cute adjustable fabric bracelet from Merci Maman features','The cute adjustable fabric bracelet from Merci Maman features a sterling silver Dove charm that can be personalised with a message of your choosing.',' Liberty Bracelet','bracelet2.jpg','bracelet.jpg',67,600);
